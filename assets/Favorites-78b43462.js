@@ -1,0 +1,1 @@
+import{c as n,j as s}from"./index-3b0fb855.js";import{P as c}from"./Product-5d5d0dd5.js";function e({favorites:t,products:o}){return s.jsx("div",{className:"products container",children:t.length?t.map(i=>o.map(r=>{if(r.id===i)return s.jsx(c,{data:r},r.id)})):s.jsx("h2",{children:"Secilmish yoxdur"})})}const a=t=>t,u=n(a)(e);export{u as default};
